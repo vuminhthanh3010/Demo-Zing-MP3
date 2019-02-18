@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="https://cdn3.iconfinder.com/data/icons/ballicons-reloaded-free/512/icon-71-512.png"/>
+    <title>Zing MP3</title>
+</head>
+<body>
+<!-- header -->
+    <div class="header">
+        <div class="logo">
+            <img src="https://static-zmp3.zadn.vn/skins/zmp3-v5.1/images/logo.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+        </div>
+        <div class="search-box">
+            <form action="#">
+            <input class="input-search" type="text" placeholder="Nhập nội dung cần tìm"><a href="#"><i class="fas fa-search"></i></a>
+            </form>
+        </div>
+        <div class="header-item">
+            <ul>
+                <li class="show-item"><a href="#">MP3</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">ZALO PC</a></li>
+            </ul>
+        </div>
+        <div class="login">
+            <a href="#">Đăng Nhập</a>
+        </div>
+    </div>
+<!-- menu bar -->
+    <div class="menu">
+        <ul  class="zing-menu">
+            <li><a href="#"><i class="fas fa-home"></i></a></li>
+            <li><a href="#" title="Nhạc cá nhân">Nhạc Cá Nhân</a></li>
+            <li class="zingchart" title="Zing Chart"><a href="#">#zingchart
+                <div class="list-zingchart">
+                    <div>
+                        <ul>
+                          <li class="title-zingchart"><a href="#">#ZINGCHART</a></li>
+                          <li><a href="#">Bài Hát</a></li>
+                          <li><a href="#">MV</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-zingchart"><a href="#">TUẦN</a></li>
+                          <li><a href="#">Bài Hát</a></li>
+                          <li><a href="#">MV</a></li>
+                          <li><a href="#">Album</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-zingchart"><a href="#">US-UK CHART</a></li>
+                          <li><a href="#">Bài Hát</a></li>
+                          <li><a href="#">MV</a></li>
+                          <li><a href="#">Album</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-zingchart"><a href="#">KPOP CHART</a></li>
+                          <li><a href="#">Bài Hát</a></li>
+                          <li><a href="#">MV</a></li>
+                          <li><a href="#">Album</a></li>
+                        </ul>
+                    </div>
+                  </div>
+            </a></li>
+            <li class="top-100" title="Top 100"><a href="#">Top 100
+                <div class="list-top-100">
+                    <div>
+                        <ul>
+                          <li><a href="#">Việt Nam</a></li>
+                          <li><a href="#">Âu Mỹ</a></li>
+                          <li><a href="#">Châu Á</a></li>
+                          <li><a href="#">Hoà Tấu</a></li>                        </ul>
+                    </div>
+                </div>
+            </a></li>
+            <li class="theme" title="Chủ đề"><a href="#">Chủ Đề
+                <div class="list-theme">
+                    <div>
+                        <ul>
+                          <li class="title-theme"><a href="#">ĐỀ XUẤT</a></li>
+                          <li><a href="#">Nhạc HOT</a></li>
+                          <li><a href="#">Nhạc Bài HITs Mới</a></li>
+                          <li><a href="#">Nhạc Việt Bất Hủ</a></li>
+                          <li><a href="#">Nhạc Bất Hủ Âu Mỹ</a></li>
+                          <li><a href="#">K-Pop HITa</a></li>
+                          <li><a href="#">Nhạc Thuý Nga</a></li>                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-theme"><a href="#">THỂ LOẠI</a></li>
+                          <li><a href="#">EDM</a></li>
+                          <li><a href="#">Acoustic</a></li>
+                          <li><a href="#">Indie</a></li>
+                          <li><a href="#">Nhạc Không Lời</a></li>
+                          <li><a href="#">Trữ Tình & Bolero</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-theme"><a href="#">TÂM TRẠNG</a></li>
+                          <li><a href="#">Những Ngày Mưa</a></li>
+                          <li><a href="#">Tình Yêu</a></li>
+                          <li><a href="#">Buồn</a></li>
+                          <li><a href="#">Thư Giãn</a></li>
+                          <li><a href="#">Động Lực</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-theme"><a href="#">HOẠT ĐỘNG</a></li>
+                          <li><a href="#">Làm Việc</a></li>
+                          <li><a href="#">Yoga</a></li>
+                          <li><a href="#">Cà Phê</a></li>
+                          <li><a href="#">Cuối Tuần</a></li>
+                          <li><a href="#">Tiệc Tùng</a></li>
+                          <li><a href="#">Du Lịch</a></li>                        
+                        </ul>
+                </div>
+            </a></li>
+            <li class="video" title="Video"><a href="#">Video
+                <div class="list-video">
+                    <div>
+                        <ul>
+                          <li class="title-video"><a href="#">VIỆT NAM</a></li>
+                          <li><a href="#">Nhạc Trẻ</a></li>
+                          <li><a href="#">Nhạc Trữ Tình</a></li>
+                          <li><a href="#">Dance Việt</a></li>
+                          <li><a href="#">Rock Việt</a></li>
+                          <li><a href="#">Rap /Hip Hop Việt</a></li>
+                          <li><a href="#">Nhạc Trịnh</a></li>
+                          <li><a href="#">Nhạc Thiếu Nhi</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-video"><a href="#">ÂU MỸ</a></li>
+                          <li><a href="#">Pop</a></li>
+                          <li><a href="#">Rock</a></li>
+                          <li><a href="#">Rap /Hip Hop</a></li>
+                          <li><a href="#">Country</a></li>
+                          <li><a href="#">Electronic /Dance</a></li>
+                          <li><a href="#">R&B /Soul</a></li>
+                          <li><a href="#">Audiophile</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-video"><a href="#">CHÂU Á</a></li>
+                          <li><a href="#">Hàn Quốc</a></li>
+                          <li><a href="#">Nhật Bản</a></li>
+                          <li><a href="#">Hoa Ngữ</a></li>
+                          <li><a href="#">Thái Lan</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-video"><a href="#">HOÀ TẤU</a></li>
+                          <li><a href="#">Classical</a></li>
+                          <li><a href="#">Piano</a></li>
+                          <li><a href="#">Guitar</a></li>
+                          <li><a href="#">Violin</a></li>
+                          <li><a href="#">Cello</a></li>
+                          <li><a href="#">Saxophone</a></li>
+                          <li><a href="#">Nhạc Cụ Dân Tộc</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </a></li>
+            <li class="album" title="Album"><a href="#">Album
+                <div class="list-album">
+                    <div>
+                        <ul>
+                          <li class="title-album"><a href="#">VIỆT NAM</a></li>
+                          <li><a href="#">Nhạc Trẻ</a></li>
+                          <li><a href="#">Nhạc Trữ Tình</a></li>
+                          <li><a href="#">Dance Việt</a></li>
+                          <li><a href="#">Rock Việt</a></li>
+                          <li><a href="#">Rap /Hip Hop Việt</a></li>
+                          <li><a href="#">Nhạc Trịnh</a></li>
+                          <li><a href="#">Nhạc Thiếu Nhi</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-album"><a href="#">ÂU MỸ</a></li>
+                          <li><a href="#">Pop</a></li>
+                          <li><a href="#">Rock</a></li>
+                          <li><a href="#">Rap /Hip Hop</a></li>
+                          <li><a href="#">Country</a></li>
+                          <li><a href="#">Electronic /Dance</a></li>
+                          <li><a href="#">R&B /Soul</a></li>
+                          <li><a href="#">Audiophile</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-album"><a href="#">CHÂU Á</a></li>
+                          <li><a href="#">Hàn Quốc</a></li>
+                          <li><a href="#">Nhật Bản</a></li>
+                          <li><a href="#">Hoa Ngữ</a></li>
+                          <li><a href="#">Thái Lan</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                          <li class="title-album"><a href="#">HOÀ TẤU</a></li>
+                          <li><a href="#">Classical</a></li>
+                          <li><a href="#">Piano</a></li>
+                          <li><a href="#">Guitar</a></li>
+                          <li><a href="#">Violin</a></li>
+                          <li><a href="#">Cello</a></li>
+                          <li><a href="#">Saxophone</a></li>
+                          <li><a href="#">Nhạc Cụ Dân Tộc</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </a></li>
+            <li class="artist" title="Nghệ sĩ"><a href="#">Nghệ Sĩ
+                <div class="list-artist">
+                    <div>
+                        <ul>
+                          <li><a href="#">Việt Nam</a></li>
+                          <li><a href="#">Âu Mỹ</a></li>
+                          <li><a href="#">Hàn Quốc</a></li>
+                          <li><a href="#">Nhật Bản</a></li>
+                          <li><a href="#">Hoa Ngữ</a></li>
+                          <li><a href="#">Hoà Tấu</a></li>                        </ul>
+                    </div>
+                </div>
+            </a></li>
+            <li class="vip" title="Vip"><a href="#">VIP
+                <div class="list-vip">
+                    <div>
+                        <ul>
+                          <li><a href="#">Mua VIP</a></li>
+                          <li><a href="#">Giới thiệu VIP</a></li>                    </ul>
+                    </div>
+                </div>
+            </a></li>
+            <li class="ad-menu" title="Bật quảng cáo"><a href="#"><i class="fas fa-power-off"></i>Tắt quảng cáo</a></li>
+            <li class="upload-menu" title="Upload"><a href="#"><i class="fas fa-cloud-upload-alt"></i></a></li>
+        </ul>
+    </div>
+<!-- content -->
+    <div class="content">
+        <div class="section-content">
+            <div class="side-bar-image"></div>
+            <div class="box">
+                <div class="box1"></div>
+                <div class="box1 box2"></div>
+                <div class="box1 box2 box3"></div>
+                <div class="box1 box2 box3 box4"></div>
+                <div class="box1 box2 box3 box4 box5"></div>
+            </div>
+            <iframe class="top-mv" scrolling="no" width="657" height="180" src="https://mp3.zing.vn/embed/zing-chart" frameborder="0" allowfullscreen="true"></iframe>
+            <div class="list-top-mv">
+                <div class="list1">
+                    <div class="number">1</div>
+                    <div class="chart">-</div>
+                    <div class="image">
+                        <div class="overlay">
+                            <a href="#"><i class="far fa-play-circle"></i></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Đúng Người Đúng Thời Điểm</div>
+                        <div class="singer">Thanh Hưng</div>
+                    </div>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-download"></i></a>
+                        <a href="#"><i class="fas fa-plus"></i></a>
+                        <a href="#"><i class="fas fa-share-alt"></i></a>
+                    </div>
+                    <div class="view-count">78,507</div>
+                </div>
+                <div class="list1 list2">
+                        <div class="number">2</div>
+                        <div class="chart">-</div>
+                        <div class="image">
+                            <div class="overlay">
+                                <a href="#"><i class="far fa-play-circle"></i></a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name">Em Sẽ Là Cô Dâu</div>
+                            <div class="singer">Minh Vương M4U, Huy Cung</div>
+                        </div>
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-film"></i></a>
+                            <a href="#"><i class="fas fa-download"></i></a>
+                            <a href="#"><i class="fas fa-plus"></i></a>
+                            <a href="#"><i class="fas fa-share-alt"></i></a>
+                        </div>
+                        <div class="view-count">43,589</div>
+                </div>
+                <div class="list1 list2 list3">
+                        <div class="number">3</div>
+                        <div class="chart">-</div>
+                        <div class="image">
+                            <div class="overlay">
+                                <a href="#"><i class="far fa-play-circle"></i></a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name">Đời Là Thế Thôi(Chạm Mặt Giang Hồ OST)</div>
+                            <div class="singer">Phú Lê</div>
+                        </div>
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-film"></i></a>
+                            <a href="#"><i class="fas fa-download"></i></a>
+                            <a href="#"><i class="fas fa-plus"></i></a>
+                            <a href="#"><i class="fas fa-share-alt"></i></a>
+                        </div>
+                        <div class="view-count">35,069</div>
+                </div>
+                <div class="list1 list2 list3 list4">
+                            <div class="number">4</div>
+                            <div class="chart">-</div>
+                            <div class="image">
+                                <div class="overlay">
+                                    <a href="#"><i class="far fa-play-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">Không Phải Em Đúng Không?</div>
+                                <div class="singer">Dương Hoàng Yến</div>
+                            </div>
+                            <div class="icon">
+                                <a href="#"><i class="fas fa-film"></i></a>
+                                <a href="#"><i class="fas fa-download"></i></a>
+                                <a href="#"><i class="fas fa-plus"></i></a>
+                                <a href="#"><i class="fas fa-share-alt"></i></a>
+                            </div>
+                            <div class="view-count">33,656</div>
+                </div>
+                <div class="list1 list2 list3 list4 list5">
+                                <div class="number">5</div>
+                                <div class="chart">-</div>
+                                <div class="image">
+                                    <div class="overlay">
+                                        <a href="#"><i class="far fa-play-circle"></i></a>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Yêu Em Dại Khờ?</div>
+                                    <div class="singer">Lou Hoàng</div>
+                                </div>
+                                <div class="icon">
+                                    <a href="#"><i class="fas fa-film"></i></a>
+                                    <a href="#"><i class="fas fa-download"></i></a>
+                                    <a href="#"><i class="fas fa-plus"></i></a>
+                                    <a href="#"><i class="fas fa-share-alt"></i></a>
+                                </div>
+                                <div class="view-count">26,428</div>
+                </div>
+            </div>
+            <div class="title-cafe">
+                <span>CÀ PHÊ CUỐI TUẦN</span>
+                <p>Thưởng thức âm nhạc nhẹ nhàng cùng tách cà phê cuối tuần</p>
+            </div>
+            <div class="cafe-mv">
+                <div class="mv">
+                    <div class="mv1">
+                        <div class="overlay">
+                            <a href="#"><i class="far fa-play-circle"></i></a>
+                        </div>
+                    </div>
+                    <p class="title-mv">Nhạc Cho Quán Cà Phê Hay Nhất</p>
+                </div>
+                <div class="mv">
+                        <div class="mv1 mv2">
+                            <div class="overlay">
+                                <a href="#"><i class="far fa-play-circle"></i></a>
+                            </div>
+                        </div>
+                        <p class="title-mv">Nonstop Vinahouse</p>
+                </div>
+                <div class="mv">
+                        <div class="mv1 mv2 mv3">
+                            <div class="overlay">
+                                <a href="#"><i class="far fa-play-circle"></i></a>
+                            </div>
+                        </div>
+                        <p class="title-mv">Những Bài Hát Hay Nhất Của Olly Murs</p>
+                </div>
+                <div class="mv">
+                        <div class="mv1 mv2 mv3 mv4">
+                            <div class="overlay">
+                                <a href="#"><i class="far fa-play-circle"></i></a>
+                            </div>
+                        </div>
+                        <p class="title-mv">Today's Rap Hits</p>
+                </div>
+            </div>
+            <div class="cafe-mv cafe-mv2">
+                    <div class="mv">
+                        <div class="mv1 mv2 mv3 mv4 mv5">
+                            <div class="overlay">
+                                <a href="#"><i class="far fa-play-circle"></i></a>
+                            </div>
+                        </div>
+                        <p class="title-mv">Cuối Tuần Thoải Mái</p>
+                    </div>
+                    <div class="mv">
+                            <div class="mv1 mv2 mv3 mv4 mv5 mv6">
+                                <div class="overlay">
+                                    <a href="#"><i class="far fa-play-circle"></i></a>
+                                </div>
+                            </div>
+                            <p class="title-mv">Song Ca Nhạc Trẻ Hải Ngoại</p>
+                    </div>
+                    <div class="mv">
+                            <div class="mv1 mv2 mv3 mv4 mv5 mv6 mv7">
+                                <div class="overlay">
+                                    <a href="#"><i class="far fa-play-circle"></i></a>
+                                </div>
+                            </div>
+                            <p class="title-mv">Cà Phê Cuối Tuần</p>
+                    </div>
+                    <div class="mv">
+                            <div class="mv1 mv2 mv3 mv4 mv5 mv6 mv7 mv8">
+                                <div class="overlay">
+                                    <a href="#"><i class="far fa-play-circle"></i></a>
+                                </div>
+                            </div>
+                            <p class="title-mv">Nhạc Hàn Có Thẻ Hot/p>
+                    </div>
+            </div>
+        </div>
+        <div class="aside-content">
+            <div class="child-1">
+                <div class="overlay">
+                    <span>Dành Riêng Cho Bạn</span>
+                </div>
+            </div>
+            <p>CHỦ ĐỀ HOT</p>
+            <div class="child-2"></div>
+            <div class="child-2 child-3"></div>
+            <div class="child-2 child-3 child-4"></div>
+            <div class="child-2 child-3 child-4 child-5"></div>
+            <div class="child-2 child-3 child-4 child-5 child-6"></div>
+            <a href="#">Xem thêm Chủ Đề khác <i class="fas fa-angle-right"></i></a>
+            <br/>
+            <span>#ZINGCHART TUẦN - BÀI HÁT <i class="fas fa-angle-right"></i><i class="far fa-play-circle"></i></span>
+            <div>
+                <ul class="weekly-sing">
+                    <li class="sing1" title="BXH Bài Hát Việt Nam">VIỆT NAM</li>
+                    <li class="sing2" title="BXH Bài Hát US-UK">US-UK</li>
+                    <li class="sing3" title="BXH Bài Hát K-Pop">K-Pop</li>
+                </ul>
+                <div class="barner-sing">
+                    <div class="number">01</div>
+                    <div class="info">
+                        <div class="name">Đúng Người Đúng Thời Điểm</div>
+                        <div class="singer">Thanh Hưng</div>
+                    </div>
+                    <div class="view-count">4,682</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
